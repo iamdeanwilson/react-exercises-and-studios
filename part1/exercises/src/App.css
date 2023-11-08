@@ -39,5 +39,10 @@
 
 .similarComponents {
   display:flex;
-justify-content:space-between;
+  justify-content:space-between;
+  border-style: double;
+  border-radius: 30px;
+  max-width: 90%;
+  margin:auto;
+  background-color: #18d9c9;
 }

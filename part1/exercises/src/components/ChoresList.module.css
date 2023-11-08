@@ -1,7 +1,16 @@
 .choresText {
-   color: black;
+   color: orange;
+   font-family: garamond;
+   font-size: x-large;
+   font-style: italic;
+   text-align: left;
+   margin-left: 10px;
 }
 
 .choresHeading {
-   color: black;
+   color: purple;
+   font-family: garamond;
+   text-decoration: underline;
+   text-align: left;
+   margin-left: 10px;
 }
