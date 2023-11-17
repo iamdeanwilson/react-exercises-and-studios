@@ -1,17 +1,17 @@
 [
    {
-     "name": "Stovetop Mac and Cheese",
-     "author": "Stephanie Melchione",
-     "description": "This Creamy Stovetop Mac and Cheese is the BEST 30-minute meal for a busy week. Your family will love it every time!",
-     "website": "https://thecozycook.com/stovetop-mac-and-cheese/",
-     "recipeImage": "https://thecozycook.com/wp-content/uploads/2021/10/Stovetop-Mac-and-Cheese-2.jpg",
-     "authorImage": "https://thecozycook.com/wp-content/uploads/2021/11/The-Cozy-Cook.jpg",
+     "name": "Vegan Cashew Queso",
+     "author": "Nora",
+     "description": "Queso made from cashews!",
+     "website": "https://www.noracooks.com/vegan-queso-dip-cashews/",
+     "recipeImage": "https://www.noracooks.com/wp-content/uploads/2020/07/IMG_3036.jpg",
+     "authorImage": "https://secure.gravatar.com/avatar/faee8ab17f0f1f9c45e527fb03b15d98?s=64&d=blank&r=g",
      "ingredients": [
-       "uncooked macaroni",
-       "butter",
-       "flour",
-       "heavy cream",
-       "milk"
+      "Cashews", 
+      "Lemon Juice", 
+      "Salt", 
+      "Nutritional Yeast", 
+      "Canned Diced Tomatoes"
      ]
    }
  ]

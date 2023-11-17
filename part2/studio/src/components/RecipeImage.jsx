@@ -1,5 +1,8 @@
+import jsonData from './recipe.json';
+
+
 function RecipeImage() {
-   return;
+   return <img src={jsonData[0]["recipeImage"]} alt="Cashew Queso" className="recipeImage"/>
  }
  
  export default RecipeImage;
