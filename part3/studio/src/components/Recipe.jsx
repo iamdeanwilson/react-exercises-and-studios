@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.noracooks.com/vegan-queso-dip-cashews/";
+   let authorPhoto = "https://secure.gravatar.com/avatar/faee8ab17f0f1f9c45e527fb03b15d98?s=64&d=blank&r=g";
+   let authorName = "Nora";
 
    return (
       <div>
@@ -17,7 +17,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["Cashews", "Lemon Juice", "Salt", "Nutritional Yeast", "Canned Diced Tomatoes"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -36,8 +36,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>Vegan Cashew Queso</h1>
+            <p>Queso made from cashews!</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
