@@ -9,7 +9,7 @@ import RecipeName from "./components/RecipeName";
 export default function App() {
   return (
     <>
-      <RecipeImage />
+      <RecipeImage className="recipeImage"/>
       <RecipeName />
       <RateARecipe rating={5} />
       <Button saveButton={true} />

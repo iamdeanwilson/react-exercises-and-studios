@@ -1,5 +1,15 @@
+import jsonData from './recipe.json';
+
 function IngredientList() {
-   return;
+   const ListOfIngredients = (props) => {
+    return props.map((ingredient) => <li key= {props.index}>{ingredient}</li>);
+   };
+  return (
+    <div>
+      <h3>Ingredients</h3>
+      <ul>{ListOfIngredients(jsonData[0]["ingredients"])}</ul>
+    </div>
+   )
  }
  
  export default IngredientList;

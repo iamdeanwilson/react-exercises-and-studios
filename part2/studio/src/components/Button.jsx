@@ -1,12 +1,14 @@
 import SaveButton from "./SaveButton";
 import ClickedButton from "./ClickedButton";
+import "./styling.css";
+
 
 function Button(props) {
   const saveButton = props.saveButton;
   if (saveButton === true){
-   return SaveButton;
-  }
-  return ClickedButton;
+   return <SaveButton />;
+  }if (saveButton === false)
+  return <ClickedButton />;
 } 
  
  
